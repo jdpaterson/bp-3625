@@ -1,0 +1,39 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  position: static;
+  background-color: $light-gray5;
+}
+.section{
+  position: relative;
+  height: 250px;
+  text-align: center;
+  padding: 100px;
+}
+.--gray{
+  background-color: $dark-gray1;
+}
+.--blue{
+  background-color: $blue3;
+}
+.--static{
+  position: static;  
+}
+.--relative{
+  position: relative;
+}
